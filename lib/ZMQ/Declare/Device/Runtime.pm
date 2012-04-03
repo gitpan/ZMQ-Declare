@@ -1,6 +1,6 @@
 package ZMQ::Declare::Device::Runtime;
 {
-  $ZMQ::Declare::Device::Runtime::VERSION = '0.01';
+  $ZMQ::Declare::Device::Runtime::VERSION = '0.02';
 }
 use 5.008001;
 use Moose;

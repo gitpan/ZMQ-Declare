@@ -1,6 +1,6 @@
 package ZMQ::Declare::ZDCF::Encoder::DumpEval;
 {
-  $ZMQ::Declare::ZDCF::Encoder::DumpEval::VERSION = '0.01';
+  $ZMQ::Declare::ZDCF::Encoder::DumpEval::VERSION = '0.02';
 }
 use 5.008001;
 use Moose;

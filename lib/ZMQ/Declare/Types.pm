@@ -1,6 +1,6 @@
 package ZMQ::Declare::Types;
 {
-  $ZMQ::Declare::Types::VERSION = '0.01';
+  $ZMQ::Declare::Types::VERSION = '0.02';
 }
 use 5.008001;
 use strict;
@@ -20,8 +20,8 @@ my %zdcf_socket_types = (
   pair => ZMQ_PAIR,
   xreq => ZMQ_XREQ,
   xrep => ZMQ_XREP,
-  xpub => ZMQ_XPUB,
-  xsub => ZMQ_XSUB,
+  router => ZMQ_XREP, # TODO rename constants?
+  dealer => ZMQ_XREQ, # TODO rename constants?
 
   # not official, just aliases
   upstream => ZMQ_UPSTREAM,

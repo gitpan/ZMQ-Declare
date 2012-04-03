@@ -1,6 +1,6 @@
 package ZMQ::Declare::ZDCF;
 {
-  $ZMQ::Declare::ZDCF::VERSION = '0.01';
+  $ZMQ::Declare::ZDCF::VERSION = '0.02';
 }
 use 5.008001;
 use Moose;

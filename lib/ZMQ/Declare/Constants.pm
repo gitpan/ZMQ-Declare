@@ -1,6 +1,6 @@
 package ZMQ::Declare::Constants;
 {
-  $ZMQ::Declare::Constants::VERSION = '0.01';
+  $ZMQ::Declare::Constants::VERSION = '0.02';
 }
 
 use 5.008001;

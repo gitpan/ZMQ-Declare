@@ -1,6 +1,6 @@
 package ZMQ::Declare::ZDCF::Validator;
 {
-  $ZMQ::Declare::ZDCF::Validator::VERSION = '0.01';
+  $ZMQ::Declare::ZDCF::Validator::VERSION = '0.02';
 }
 use 5.008001;
 use Moose;
@@ -46,7 +46,7 @@ SCOPE: {
       map {
         { type => '//str', value => $_ },
         { type => '//str', value => uc($_) }
-      } qw(sub pub req rep xreq xrep push pull pair)
+      } qw(sub pub req rep xreq xrep push pull pair router dealer)
     ]
   };
   my $socket_schema = {

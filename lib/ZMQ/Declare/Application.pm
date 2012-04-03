@@ -1,6 +1,6 @@
 package ZMQ::Declare::Application;
 {
-  $ZMQ::Declare::Application::VERSION = '0.01';
+  $ZMQ::Declare::Application::VERSION = '0.02';
 }
 use 5.008001;
 use Moose;

@@ -1,6 +1,6 @@
 package ZMQ::Declare::ZDCF::Encoder::JSON;
 {
-  $ZMQ::Declare::ZDCF::Encoder::JSON::VERSION = '0.01';
+  $ZMQ::Declare::ZDCF::Encoder::JSON::VERSION = '0.02';
 }
 use 5.008001;
 use Moose;
