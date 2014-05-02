@@ -1,6 +1,6 @@
 package ZMQ::Declare::DSL;
 {
-  $ZMQ::Declare::DSL::VERSION = '0.02';
+  $ZMQ::Declare::DSL::VERSION = '0.03';
 }
 
 use 5.008001;

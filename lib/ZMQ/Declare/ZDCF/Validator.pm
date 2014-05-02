@@ -1,6 +1,6 @@
 package ZMQ::Declare::ZDCF::Validator;
 {
-  $ZMQ::Declare::ZDCF::Validator::VERSION = '0.02';
+  $ZMQ::Declare::ZDCF::Validator::VERSION = '0.03';
 }
 use 5.008001;
 use Moose;

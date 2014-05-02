@@ -1,6 +1,6 @@
 package ZMQ::Declare::ZDCF::Encoder::Storable;
 {
-  $ZMQ::Declare::ZDCF::Encoder::Storable::VERSION = '0.02';
+  $ZMQ::Declare::ZDCF::Encoder::Storable::VERSION = '0.03';
 }
 use 5.008001;
 use Moose;
